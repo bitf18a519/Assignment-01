@@ -19,12 +19,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintVertical_bias="0.204"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="126dp"
-        android:layout_height="47dp"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
         android:text="Cash amount"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="43dp"
         android:layout_marginTop="36dp"
-        android:text="Zakat Calculator"
+        android:text="@string/zakat_calculator"
         android:textIsSelectable="false"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
