@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         EditText num3=(EditText) findViewById(R.id.num3s);
         EditText num4=(EditText) findViewById(R.id.num4sg);
 
+        TextView result=(TextView) findViewById(R.id.Result_view);
+
 
 
     }
