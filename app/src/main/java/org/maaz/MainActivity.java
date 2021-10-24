@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EditText num1 =(EditText) findViewById(R.id.num1c);
+        EditText num2=(EditText) findViewById(R.id.num2g);
 
     }
 }
