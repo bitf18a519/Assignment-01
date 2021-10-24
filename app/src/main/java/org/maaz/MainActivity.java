@@ -43,7 +43,12 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(globe);
 
                 }
-                else {
+                else if(gold==0 && silver<(1400*52.5) && cash==0 && stock==0)
+                {
+                    result.setText(globe);
+                }
+                else
+                {
 
                     double total = (cash + gold + silver + stock) / 40;
 
