@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
                 {
                     result.setText(globe);
                 }
+
+                else if(gold==0 && silver==0 && ((cash+stock)<73500))
+                {
+                    result.setText(globe);
+                }
+
                 else
                 {
 
