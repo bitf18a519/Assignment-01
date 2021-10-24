@@ -32,9 +32,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 double cash=Double.parseDouble(num1.getText().toString());
-                double gold=Double.parseDouble(num2.getText().toString());
-                double silver=Double.parseDouble(num3.getText().toString());
+                double gold=(Double.parseDouble(num2.getText().toString()));
+                double silver=(Double.parseDouble(num3.getText().toString()));
                 double stock=Double.parseDouble(num4.getText().toString());
+
+
+                double total=(cash+gold+silver+stock);
+
+                String sdouble=Double.toString(total);
+                result.setText(sdouble);
+
+
 
             }
         });
