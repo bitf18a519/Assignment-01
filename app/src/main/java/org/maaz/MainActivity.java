@@ -30,18 +30,26 @@ public class MainActivity extends AppCompatActivity {
         comp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String globe="0";
 
                 double cash=Double.parseDouble(num1.getText().toString());
                 double gold=116000*(Double.parseDouble(num2.getText().toString()));
                 double silver=1400*(Double.parseDouble(num3.getText().toString()));
                 double stock=Double.parseDouble(num4.getText().toString());
 
+                if(gold<(116000*7.5) && silver==0 && cash==0 && stock==0)
+                {
 
-                double total=(cash+gold+silver+stock)/40;
+                    result.setText(globe);
 
-                String sdouble=Double.toString(total);
-                result.setText(sdouble);
+                }
+                else {
 
+                    double total = (cash + gold + silver + stock) / 40;
+
+                    String sdouble = Double.toString(total);
+                    result.setText(sdouble);
+                }
 
 
             }
