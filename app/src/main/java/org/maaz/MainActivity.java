@@ -2,6 +2,7 @@ package org.maaz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         EditText num4=(EditText) findViewById(R.id.num4sg);
 
         TextView result=(TextView) findViewById(R.id.Result_view);
+
+        Button comp=(Button) findViewById(R.id.button);
 
 
 
