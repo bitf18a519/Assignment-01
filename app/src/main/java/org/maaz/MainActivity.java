@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         EditText num1 =(EditText) findViewById(R.id.num1c);
         EditText num2=(EditText) findViewById(R.id.num2g);
+        EditText num3=(EditText) findViewById(R.id.num3s);
+        EditText num4=(EditText) findViewById(R.id.num4sg);
 
     }
 }
