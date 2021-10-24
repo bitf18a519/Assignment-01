@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String globe="0";
 
+
+
                 double cash=Double.parseDouble(num1.getText().toString());
                 double gold=116000*(Double.parseDouble(num2.getText().toString()));
                 double silver=1400*(Double.parseDouble(num3.getText().toString()));
