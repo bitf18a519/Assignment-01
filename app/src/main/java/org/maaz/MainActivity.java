@@ -2,6 +2,7 @@ package org.maaz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -23,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
         TextView result=(TextView) findViewById(R.id.Result_view);
 
         Button comp=(Button) findViewById(R.id.button);
+
+
+
+        comp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
 
