@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                double cash=Double.parseDouble(num1.getText().toString());
+
             }
         });
 
